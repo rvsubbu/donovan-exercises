@@ -18,7 +18,7 @@ import (
 	"strings"
 )
 
-func Ex1_2() {
+func Ex2() {
 	fmt.Println(stringJoin(os.Args))
 	fmt.Println(loopConcat(os.Args))
 	fmt.Println(fmtSprint(os.Args))

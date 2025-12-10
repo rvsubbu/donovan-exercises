@@ -11,7 +11,7 @@ import (
 	"os"
 )
 
-func Ex1_1() {
+func Ex1() {
 	for i, arg := range os.Args {
 		fmt.Printf("Arg[%d]: %s\n", i, arg)
 	}
