@@ -1,0 +1,9 @@
+goos: darwin
+goarch: arm64
+pkg: donovan
+cpu: Apple M1 Pro
+BenchmarkStringJoin-10    	 1426046	       823.6 ns/op	     640 B/op	       1 allocs/op
+BenchmarkLoopConcat-10    	  120298	     10429 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkFmtSprint-10     	  106024	     11260 ns/op	   33873 B/op	     299 allocs/op
+PASS
+ok  	donovan	4.845s

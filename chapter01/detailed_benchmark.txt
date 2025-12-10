@@ -1,0 +1,36 @@
+goos: darwin
+goarch: arm64
+pkg: donovan
+cpu: Apple M1 Pro
+BenchmarkStringJoin-10    	 1424430	       827.1 ns/op	     640 B/op	       1 allocs/op
+BenchmarkStringJoin-10    	 1452188	       832.0 ns/op	     640 B/op	       1 allocs/op
+BenchmarkStringJoin-10    	 1448516	       823.8 ns/op	     640 B/op	       1 allocs/op
+BenchmarkStringJoin-10    	 1456610	       824.1 ns/op	     640 B/op	       1 allocs/op
+BenchmarkStringJoin-10    	 1452656	       828.1 ns/op	     640 B/op	       1 allocs/op
+BenchmarkStringJoin-10    	 1461960	       824.5 ns/op	     640 B/op	       1 allocs/op
+BenchmarkStringJoin-10    	 1456952	       825.3 ns/op	     640 B/op	       1 allocs/op
+BenchmarkStringJoin-10    	 1453910	       825.7 ns/op	     640 B/op	       1 allocs/op
+BenchmarkStringJoin-10    	 1451462	       827.6 ns/op	     640 B/op	       1 allocs/op
+BenchmarkStringJoin-10    	 1456586	       825.2 ns/op	     640 B/op	       1 allocs/op
+BenchmarkLoopConcat-10    	  119557	     10237 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkLoopConcat-10    	  118112	     10371 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkLoopConcat-10    	  115558	     10429 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkLoopConcat-10    	  116560	     10410 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkLoopConcat-10    	  116238	     10399 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkLoopConcat-10    	  112174	     10270 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkLoopConcat-10    	  116671	     10542 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkLoopConcat-10    	   95300	     10935 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkLoopConcat-10    	  110858	     11444 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkLoopConcat-10    	  108376	     10513 ns/op	   62824 B/op	     198 allocs/op
+BenchmarkFmtSprint-10     	   72198	     15617 ns/op	   33874 B/op	     299 allocs/op
+BenchmarkFmtSprint-10     	   99612	     12844 ns/op	   33874 B/op	     299 allocs/op
+BenchmarkFmtSprint-10     	  100471	     11702 ns/op	   33873 B/op	     299 allocs/op
+BenchmarkFmtSprint-10     	   87836	     13493 ns/op	   33873 B/op	     299 allocs/op
+BenchmarkFmtSprint-10     	   83192	     13020 ns/op	   33874 B/op	     299 allocs/op
+BenchmarkFmtSprint-10     	   96589	     12533 ns/op	   33873 B/op	     299 allocs/op
+BenchmarkFmtSprint-10     	  104011	     11637 ns/op	   33873 B/op	     299 allocs/op
+BenchmarkFmtSprint-10     	  104354	     12876 ns/op	   33873 B/op	     299 allocs/op
+BenchmarkFmtSprint-10     	  107362	     11109 ns/op	   33873 B/op	     299 allocs/op
+BenchmarkFmtSprint-10     	  100089	     11335 ns/op	   33873 B/op	     299 allocs/op
+PASS
+ok  	donovan	46.806s
