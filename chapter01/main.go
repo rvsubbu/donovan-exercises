@@ -13,8 +13,8 @@ import (
 
 func main() {
 	fmt.Println("=== Chapter 1, Exercise 1 ===")
-	exercises.Ex1_1()
+	exercises.Ex1()
 
 	fmt.Println("\n=== Chapter 1, Exercise 2 ===")
-	exercises.Ex1_2()
+	exercises.Ex2()
 }
