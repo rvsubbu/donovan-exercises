@@ -156,6 +156,7 @@ func DupDetectSorted(threshold int, fileName string) {
 			lineDatum.locations = make(map[string][]int)
 			lineDatum.locations[fileName] = []int{i}
 			if prevInputText != "" {
+				prevLineDatum := counts[prevInputText]
 				prevLineDatum.locations[fileName] = append(prevLineDatum.locations[fileName], i-1)
 				counts[prevInputText] = prevLineDatum
 			}
@@ -200,7 +201,7 @@ func DupDetect(threshold int) {
 }
 
 func OriginalDupDetect() {
-	// DupDetect from Donovan & Ritchie
+	// DupDetect from Donovan & Kernighan
 	counts := make(map[string]int)
 	input := bufio.NewScanner(os.Stdin)
 	for input.Scan() {

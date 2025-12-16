@@ -23,4 +23,6 @@ func main() {
 	// exercises.DupDetectFiles(2, false)
 	exercises.DupDetectFiles(2, false, "a", "b")
 	exercises.DupDetectFiles(2, true, "sorteda")
+
+	exercises.NewChiRouter()
 }
